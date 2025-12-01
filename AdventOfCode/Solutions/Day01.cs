@@ -43,7 +43,7 @@ static class Day01_2025_Extensions
 
     public static (int dialPosition, int zeroClicks) TurnDialWithZeroClicks(this int dialLocation, int rotation)
     {
-        var dialPosition = TurnDial(dialLocation, rotation);
+        var dialPosition = dialLocation.TurnDial(rotation);
         var zeroClicks = Enumerable.Range(0, rotation.Absolute())
             .Count(x => dialLocation.TurnDial(rotation.Sign() * x) == 0);
 
