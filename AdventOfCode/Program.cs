@@ -25,7 +25,7 @@ foreach (var type in solutionTypes)
     builder.Services.AddTransient(type);
 
 var host = builder.Build();
-var solution = host.Services.GetRequiredService<Day02_2025>();
+var solution = host.Services.GetRequiredService<Day01_2025>();
 var logger = host.Services.GetRequiredService<ILogger<Program>>();
 
 // Run the solution
