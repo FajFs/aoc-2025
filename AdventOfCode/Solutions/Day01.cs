@@ -29,7 +29,7 @@ public class Day01_2025(AdventOfCodeClient client)
 }
 
 
-static class Day01_2025_Extensions
+file static class Day01_2025_Extensions
 {
     public static IEnumerable<(int dialPosition, int zeroClicks)> DialRotations(this IEnumerable<int> rotations, int startDialLocation = 50)
     {
