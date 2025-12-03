@@ -8,3 +8,4 @@ global using Microsoft.Extensions.Logging;
 global using Serilog;
 global using System.Diagnostics;
 global using System.Net;
+global using System.Text;
