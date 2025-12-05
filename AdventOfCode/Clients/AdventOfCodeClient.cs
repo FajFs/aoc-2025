@@ -16,6 +16,6 @@ public class AdventOfCodeClient(
         Directory.CreateDirectory("Inputs");
         await File.WriteAllTextAsync(path, input);
 
-        return input.Split(['\n'], StringSplitOptions.RemoveEmptyEntries);
+        return input.Split(['\n']);
     }
 }
