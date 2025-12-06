@@ -1,4 +1,3 @@
-global using AdventOfCode;
 global using AdventOfCode.Clients;
 global using AdventOfCode.Solutions;
 global using Microsoft.Extensions.Configuration;
